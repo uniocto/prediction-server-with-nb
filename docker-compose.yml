@@ -1,0 +1,9 @@
+version: '3'
+services:
+  notebook_server:
+    build: .
+    container_name: notebook_server
+    hostname: notebook_server
+    restart: always
+    ports: 
+      - 8000:8000
