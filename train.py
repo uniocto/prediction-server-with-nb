@@ -14,7 +14,7 @@ y = iris_dataset["target"]
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, train_size = 0.8, shuffle = True)
 
 
-clf = SVC()
+clf = SVC(gamma='scale')
 clf.fit(x_train, y_train)
 
 y_pred = clf.predict(x_test)
