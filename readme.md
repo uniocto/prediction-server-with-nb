@@ -1,6 +1,6 @@
 # Simple prediction server with ipynb
 
-## Main Features
+## Features
 * http server
 * use .ipynb
 * container
